@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --box-width: 200px;
+    --box-height: 100px;
+    --box-width-md: 400px;
+    --box-height-md: 200px;
+    --bg-color-box: gray;
+    --border:2px solid black;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.second__section--box{
+    width: var(--box-width);
+    height: var(--box-height);
+    background-color: var(--bg-color-box);
+    margin: 10px;
+    border: var(--border);
+}
+.first__section{
+    padding-top:150px;
+}
+.first__section--box{
+    width: var(--box-width);
+    height: var(--box-height);
+    background-color: var(--bg-color-box);
+    margin: 10px;
+    border: var(--border);
+}
+.third__section{
+    padding-top:150px;
+}
+.third__section--box{
+    width: var(--box-width);
+    height: var(--box-height);
+    background-color: var(--bg-color-box);
+    margin: 10px;
+    border: var(--border);
+}
+.fourth__section{
+    padding-top:150px;
+}
+.fourth__section--box-md{
+    width: var(--box-width-md);
+    height: var(--box-height-md);
+    background-color: var(--bg-color-box);
+    margin: 10px;
+    border: var(--border);
+}
+.fourth__section--box{
+    width: var(--box-width);
+    height: var(--box-height);
+    background-color: var(--bg-color-box);
+    margin: 10px;
+    border: var(--border);
+}
+.md{
+    width: var(--box-width-md);
+    height: var(--box-height-md);
+}
+
