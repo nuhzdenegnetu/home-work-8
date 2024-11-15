@@ -67,8 +67,12 @@
     width: var(--box-width);
     height: var(--box-height);
     background-color: var(--bg-color-box);
-    margin: 10px;
+    margin: 10px auto 10px auto;
     border: var(--border);
+}
+.fifth__section--boxes{
+    width: 100%;
+    padding-left: calc(var(--box-width-md) * 1.5 + 40px);
 }
 .md{
     width: var(--box-width-md);
@@ -77,5 +81,4 @@
 .lg{
     width: var(--box-width-md);
     height: var(--box-height-md);
-    margin: 10px auto;
 }
