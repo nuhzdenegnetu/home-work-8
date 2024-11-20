@@ -8,8 +8,12 @@
     --box-height: 100px;
     --box-width-md: 400px;
     --box-height-md: 210px;
+    --box-indent-top: 10px auto 10px auto;
     --bg-color-box: gray;
     --border:2px solid black;
+    --border-line: -4px;
+    --section-height: calc(var(--box-height) + 20px);
+    --section-height-md: calc(var(--box-height-md) + 20px);
 }
 .left{
     float: left;
@@ -17,68 +21,71 @@
 .right{
     float: right;
 }
-.second__section{
+.second--section{
     width: 100%;
-    height: 100%;
+    height: var(--section-height);
 }
-.second__section--box{
+.second--section__box{
     width: var(--box-width);
     height: var(--box-height);
     background-color: var(--bg-color-box);
     margin: 10px;
     border: var(--border);
 }
-.first__section{
-    padding-top:150px;
+.first--section{
     width: 100%;
-    height: var(--box-height);
+    height: var(--section-height);
 }
-.first__section--box{
+.first--section__box{
     width: var(--box-width);
     height: var(--box-height);
     background-color: var(--bg-color-box);
     margin: 10px;
     border: var(--border);
 }
-.third__section{
-    padding-top:150px;
+.third--section{
+    height: var(--section-height);
 }
-.third__section--box{
+.third--section__box{
     width: var(--box-width);
     height: var(--box-height);
     background-color: var(--bg-color-box);
     margin: 10px;
     border: var(--border);
 }
-.fourth__section{
-    padding-top:150px;
+.fourth--section{
+    height: var(--section-height-md);
 }
-.fourth__section--box{
+.fourth--section__box{
     width: var(--box-width);
     height: var(--box-height);
     background-color: var(--bg-color-box);
     margin: 10px;
     border: var(--border);
 }
-.fifth__section{
-    padding-top:260px;
+.fifth--section{
+    width: 100%;
+    height: var(--section-height-md);
 }
-.fifth__section--box{
-    width: var(--box-width);
+.fifth--section__box{
+    width: var(--box-width-md);
     height: var(--box-height);
     background-color: var(--bg-color-box);
     margin: 10px auto 10px auto;
     border: var(--border);
 }
-.fifth__section--boxes{
+.fifth--section__boxes{
     width: 100%;
-    padding-left: calc(var(--box-width-md) * 1.5 + 40px);
+}
+.indent--box{
+    margin: 0 calc(var(--box-width) / 0.5 + var(--border-line) * 6) 10px auto;
 }
 .md{
     width: var(--box-width-md);
     height: var(--box-height-md);
 }
 .lg{
-    width: var(--box-width-md);
+    width: calc(var(--box-width-md) + var(--box-width));
     height: var(--box-height-md);
+    margin-left: calc(var(--box-width) / 0.5 + var(--border-line));
 }
