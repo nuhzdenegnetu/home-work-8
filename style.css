@@ -21,64 +21,67 @@
 .right{
     float: right;
 }
-.second--section{
+.second__section{
     width: 100%;
     height: var(--section-height);
 }
-.second--section__box{
+.second__section__box{
     width: var(--box-width);
     height: var(--box-height);
     background-color: var(--bg-color-box);
     margin: 10px;
     border: var(--border);
 }
-.first--section{
+.first__section{
     width: 100%;
     height: var(--section-height);
 }
-.first--section__box{
+.first__section__box{
     width: var(--box-width);
     height: var(--box-height);
     background-color: var(--bg-color-box);
     margin: 10px;
     border: var(--border);
 }
-.third--section{
+.third__section{
     height: var(--section-height);
 }
-.third--section__box{
+.third__section__box{
     width: var(--box-width);
     height: var(--box-height);
     background-color: var(--bg-color-box);
     margin: 10px;
     border: var(--border);
 }
-.fourth--section{
+.fourth__section{
     height: var(--section-height-md);
 }
-.fourth--section__box{
+.fourth__section__box{
     width: var(--box-width);
     height: var(--box-height);
     background-color: var(--bg-color-box);
     margin: 10px;
     border: var(--border);
 }
-.fifth--section{
+.fifth__section{
     width: 100%;
     height: var(--section-height-md);
+
 }
-.fifth--section__box{
+.fifth__section__box{
     width: var(--box-width-md);
     height: var(--box-height);
     background-color: var(--bg-color-box);
-    margin: 10px auto 10px auto;
+    margin: 10px 40vh;
     border: var(--border);
 }
-.fifth--section__boxes{
+.fifth__section__boxes{
     width: 100%;
 }
-.indent--box{
-    margin: 0 calc(var(--box-width) / 0.5 + var(--border-line) * 6) 10px auto;
+.indent__box{
+    position: relative;
+    bottom: 10px;
+    left: calc(var(--box-width-md) + 220px);
 }
 .md{
     width: var(--box-width-md);
@@ -87,5 +90,6 @@
 .lg{
     width: calc(var(--box-width-md) + var(--box-width));
     height: var(--box-height-md);
-    margin-left: calc(var(--box-width) / 0.5 + var(--border-line));
+    position: static;
+
 }
