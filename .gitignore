@@ -1,2 +1,79 @@
-# IDE specific files
+# Исключение системных файлов
+.DS_Store
+Thumbs.db
+
+# Локальные настройки IDE
+.vscode/
 .idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Лог-файлы и временные файлы
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+*.orig
+
+# Исключение node_modules (для проектов на JavaScript/TypeScript)
+node_modules/
+
+# Исключение файлов окружения
+.env
+.env.local
+.env.*.local
+
+# Исключение зависимостей Python
+__pycache__/
+*.py[cod]
+.Python
+env/
+venv/
+ENV/
+
+# Исключение сборочных артефактов
+dist/
+build/
+out/
+
+# Исключение файлов операционных систем
+*.~lock.*
+*.lnk
+*.stackdump
+
+# Исключение файлов для популярных языков
+*.class      # Java
+*.jar        # Java
+*.war        # Java
+*.ear        # Java
+*.exe        # Windows
+*.dll        # Windows
+*.out        # С/C++
+*.obj        # С/C++
+*.o          # С/C++
+*.pdb        # С/C++
+*.lib        # С/C++
+
+# Исключение зависимостей для Go
+vendor/
+
+# Исключение зависимостей для Rust
+/target/
+
+# Исключение зависимостей для Ruby
+*.gem
+.bundle/
+vendor/bundle
+
+# Исключение для Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Исключение для logs и debug в Laravel
+/storage/logs
+/storage/framework/cache
+/storage/framework/views

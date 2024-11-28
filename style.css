@@ -12,8 +12,8 @@
     --bg-color-box: gray;
     --border:2px solid black;
     --border-line: -4px;
-    --section-height: calc(var(--box-height) + 20px);
-    --section-height-md: calc(var(--box-height-md) + 20px);
+    --section-height: calc(var(--box-height) + 22px);
+    --section-height-md: calc(var(--box-height-md) + 22px);
 }
 .left{
     float: left;
@@ -21,67 +21,51 @@
 .right{
     float: right;
 }
-.second__section{
+.section{
+    background-color: #BDB5B5FF;
+    border: var(--border);
+}
+.section__box{
+    width: var(--box-width);
+    height: var(--box-height);
+    background-color: var(--bg-color-box);
+    margin: 10px;
+    border: var(--border);
+}
+/*sections*/
+.second{
+     width: 100%;
+     height: var(--section-height);
+ }
+.first{
     width: 100%;
     height: var(--section-height);
 }
-.second__section__box{
-    width: var(--box-width);
-    height: var(--box-height);
-    background-color: var(--bg-color-box);
-    margin: 10px;
-    border: var(--border);
-}
-.first__section{
+.third{
     width: 100%;
     height: var(--section-height);
 }
-.first__section__box{
-    width: var(--box-width);
-    height: var(--box-height);
-    background-color: var(--bg-color-box);
-    margin: 10px;
-    border: var(--border);
-}
-.third__section{
-    height: var(--section-height);
-}
-.third__section__box{
-    width: var(--box-width);
-    height: var(--box-height);
-    background-color: var(--bg-color-box);
-    margin: 10px;
-    border: var(--border);
-}
-.fourth__section{
+.fourth{
+    width: 100%;
     height: var(--section-height-md);
 }
-.fourth__section__box{
-    width: var(--box-width);
-    height: var(--box-height);
-    background-color: var(--bg-color-box);
-    margin: 10px;
-    border: var(--border);
-}
-.fifth__section{
+.fifth{
     width: 100%;
     height: var(--section-height-md);
-
 }
-.fifth__section__box{
-    width: var(--box-width-md);
-    height: var(--box-height);
-    background-color: var(--bg-color-box);
-    margin: 10px 40vh;
-    border: var(--border);
-}
-.fifth__section__boxes{
+.fifth-section__boxes{
     width: 100%;
+    margin-top: 10px;
 }
 .indent__box{
     position: relative;
     bottom: 10px;
     left: calc(var(--box-width-md) + 220px);
+    width: var(--box-width-md);
+    height: var(--box-height);
+    background-color: var(--bg-color-box);
+    margin: 10px 40vh;
+    border: var(--border);
 }
 .md{
     width: var(--box-width-md);
@@ -91,5 +75,13 @@
     width: calc(var(--box-width-md) + var(--box-width));
     height: var(--box-height-md);
     position: static;
-
+    margin: 10px 40vh;
 }
+
+
+
+
+
+
+
+
