@@ -25,7 +25,7 @@
     background-color: #BDB5B5FF;
     border: var(--border);
 }
-.section__box{
+.box{
     width: var(--box-width);
     height: var(--box-height);
     background-color: var(--bg-color-box);
@@ -53,7 +53,7 @@
     width: 100%;
     height: var(--section-height-md);
 }
-.fifth-section__boxes{
+.fifth-boxes{
     width: 100%;
     margin-top: 10px;
 }
