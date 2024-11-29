@@ -24,6 +24,7 @@
 .section{
     background-color: #BDB5B5FF;
     border: var(--border);
+    margin-bottom: 2px;
 }
 .box{
     width: var(--box-width);
@@ -50,8 +51,10 @@
     height: var(--section-height-md);
 }
 .fifth{
-    width: 100%;
+    width: 1045px;
     height: var(--section-height-md);
+    margin: 0 auto;
+    position: static;
 }
 .fifth-boxes{
     width: 100%;
@@ -64,7 +67,6 @@
     width: var(--box-width-md);
     height: var(--box-height);
     background-color: var(--bg-color-box);
-    margin: 10px 40vh;
     border: var(--border);
 }
 .md{
@@ -74,8 +76,6 @@
 .lg{
     width: calc(var(--box-width-md) + var(--box-width));
     height: var(--box-height-md);
-    position: static;
-    margin: 10px 40vh;
 }
 
 
